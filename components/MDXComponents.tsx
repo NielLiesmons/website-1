@@ -15,6 +15,7 @@ import DesignTeam from './DesignTeam'
 import Credits from './Supporters'
 import YouTubeEmbed from './YouTubeEmbed'
 import Members from './Members'
+import LTSGrantees from './LTSGrantees'
 
 export const Wrapper = ({ layout, content, ...rest }: MDXLayout) => {
   const Layout = require(`../layouts/${layout}`).default
@@ -36,4 +37,5 @@ export const MDXComponents: ComponentMap = {
   YouTubeEmbed,
   Credits,
   Members,
+  LTSGrantees,
 }
